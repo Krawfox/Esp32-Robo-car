@@ -1,64 +1,146 @@
 #include <Arduino.h>
-#include <WiFi.h>
-#include <WebSocketsServer.h>
-#include <WebServer.h>
+#include "BluetoothSerial.h"
 
-const char* ssid="ESP32_CAR";
-const char* pass="12345678";
+BluetoothSerial SerialBT;
 
-WebServer server(80);
-WebSocketsServer ws(81);
+// Motor Pins
+#define ENA 13
+#define IN1 12
+#define IN2 14
 
-const int ENA=25,IN1=26,IN2=27,IN3=14,IN4=12,ENB=13;
+#define ENB 15
+#define IN3 27
+#define IN4 26
 
-const char PAGE[] PROGMEM=R"rawliteral(
-<!doctype html><html><body><h2>Xbox Car</h2><pre id=o>Connect controller and press a button.</pre>
-<script>
-let s=new WebSocket("ws://192.168.4.1:81/");
-function loop(){
- let g=navigator.getGamepads()[0];
- if(g&&s.readyState===1){
- let d={lx:g.axes[0],ly:g.axes[1]};
- s.send(JSON.stringify(d));
- o.textContent=JSON.stringify(d,null,2);
- }
- requestAnimationFrame(loop);
+// PWM Configuration
+const uint8_t PWM_CH_A = 0;
+const uint8_t PWM_CH_B = 1;
+const uint16_t PWM_FREQ = 1000;
+const uint8_t PWM_RES = 8;
+
+int speedValue = 200;
+
+void stopMotor();
+void forward();
+void backward();
+void left();
+void right();
+
+void setup() {
+  Serial.begin(115200);
+
+  SerialBT.begin("Krawfox_ROBO");
+
+
+
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+
+  ledcSetup(PWM_CH_A, PWM_FREQ, PWM_RES);
+  ledcAttachPin(ENA, PWM_CH_A);
+
+  ledcSetup(PWM_CH_B, PWM_FREQ, PWM_RES);
+  ledcAttachPin(ENB, PWM_CH_B);
+
+  ledcWrite(PWM_CH_A, speedValue);
+  ledcWrite(PWM_CH_B, speedValue);
+
+  stopMotor();
+
+  Serial.println("__ Krawfox_ROBO is ready! __");
 }
-loop();
-</script></body></html>)rawliteral";
 
-void drive(float lx,float ly){
-  int left=constrain((int)((-ly+lx)*255),-255,255);
-  int right=constrain((int)((-ly-lx)*255),-255,255);
-  auto motor=[](int en,int a,int b,int sp){
-    if(sp>=0){digitalWrite(a,1);digitalWrite(b,0);}
-    else {digitalWrite(a,0);digitalWrite(b,1);sp=-sp;}
-    ledcWrite(en==ENA?0:1,sp);
-  };
-  motor(ENA,IN1,IN2,left);
-  motor(ENB,IN3,IN4,right);
-}
+void loop() {
 
-void onWs(uint8_t n,WStype_t t,uint8_t* p,size_t l){
- if(t==WStype_TEXT){
-  String s=(char*)p;
-  int ilx=s.indexOf("\"lx\":");
-  int ily=s.indexOf("\"ly\":");
-  if(ilx>=0&&ily>=0){
-    float lx=s.substring(ilx+5,s.indexOf(",",ilx)).toFloat();
-    float ly=s.substring(ily+5,s.indexOf("}",ily)).toFloat();
-    drive(lx,ly);
+  if (SerialBT.available()) {
+
+    char cmd = SerialBT.read();
+
+    Serial.print("Received: ");
+    Serial.println(cmd);
+
+    switch (cmd) {
+
+      case 'F':
+        forward();
+        break;
+
+      case 'B':
+        backward();
+        break;
+
+      case 'L':
+        right();
+        break;
+
+      case 'R':
+        left();
+        break;
+
+      case 'S':
+        stopMotor();
+        break;
+
+      case '0': speedValue = 0; break;
+      case '1': speedValue = 25; break;
+      case '2': speedValue = 50; break;
+      case '3': speedValue = 75; break;
+      case '4': speedValue = 100; break;
+      case '5': speedValue = 125; break;
+      case '6': speedValue = 150; break;
+      case '7': speedValue = 175; break;
+      case '8': speedValue = 200; break;
+      case '9': speedValue = 225; break;
+      case 'q': speedValue = 255; break;
+    }
+
+    ledcWrite(PWM_CH_A, speedValue);
+    ledcWrite(PWM_CH_B, speedValue);
   }
- }
 }
 
-void setup(){
- pinMode(IN1,1);pinMode(IN2,1);pinMode(IN3,1);pinMode(IN4,1);
- ledcSetup(0,1000,8); ledcAttachPin(ENA,0);
- ledcSetup(1,1000,8); ledcAttachPin(ENB,1);
- WiFi.softAP(ssid,pass);
- server.on("/",[](){server.send_P(200,"text/html",PAGE);});
- server.begin();
- ws.begin(); ws.onEvent(onWs);
+void forward() {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
 }
-void loop(){server.handleClient();ws.loop();}
+
+void backward() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+
+void left() {
+  // Left motor backward
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+
+  // Right motor forward
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void right() {
+  // Left motor forward
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+
+  // Right motor backward
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+
+void stopMotor() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}

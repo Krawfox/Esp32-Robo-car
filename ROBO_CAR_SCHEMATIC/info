@@ -1,0 +1,105 @@
+{
+  "uuid": "9bb25ed8b5f6e0f41dc65cafb1a56b84",
+  "path": "Offline/Robo Car",
+  "name": "Robo Car",
+  "content": "",
+  "created_at": "2026-07-04 11:58:12",
+  "updated_at": "2026-07-07 19:50:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b2018230571e15a7acc9a2182a62d68d",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1680f7e5e3474ad49ec43f6e94e1f33b": 1,
+        "2573a8cd30914823ba6bc6034bb22013": 1,
+        "20e9feadb1f44a4a9d5c6f1d6b374faf": 3,
+        "dd44646b84aa4caaa32a427c5305b08b": 1,
+        "220b250100ed45b78237630c72c0f88c": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "ESP32-DEVKIT-V1-30PIN NORMALIZED COPY",
+          1,
+          "ESP32-DEVKITV1_ESP32-DEVKITV1",
+          "1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Switch SPST",
+          1,
+          "SWITCH-SPST",
+          "SW_1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "DRIVER_L298N COPY",
+          1,
+          "M_L298N_AL",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "3.7V 1850 battery",
+          3,
+          "BAT-TH_SVC14500-3.7V-800MAH",
+          "U2,U3,U4",
+          {
+            "Manufacturer Part": "SVC14500 3.7V 800mAh",
+            "Manufacturer": "Sharvin Power(经钛电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C42404724"
+          }
+        ],
+        [
+          "TT MOTOR",
+          4,
+          "GENERIC-ELETRIC-MOTOR",
+          "U5,U6,U7,U8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1783433110,
+      "createTime": 1783145593,
+      "histories": [],
+      "created_at": "2026-07-04 11:58:13",
+      "updated_at": "2026-07-07 19:50:10"
+    }
+  ],
+  "sort": [],
+  "title": "Robo Car",
+  "foldername": "Robo Car",
+  "schfilename": "Robo Car.json",
+  "schfilemtime": 1783433110560
+}

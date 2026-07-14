@@ -42,6 +42,7 @@
 
     - Arduino Framework
     - BluetoothSerial (ESP32)
+    - Platformio IO
 
 # Schematic
 <img width="2339" height="1654" alt="Schematic_Robo-Car_2026-07-07" src="https://github.com/user-attachments/assets/d7a407af-25d3-46d2-8453-011839166287" />

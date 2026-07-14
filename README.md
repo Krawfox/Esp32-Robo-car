@@ -45,3 +45,10 @@
 
 # Schematic
 <img width="2339" height="1654" alt="Schematic_Robo-Car_2026-07-07" src="https://github.com/user-attachments/assets/d7a407af-25d3-46d2-8453-011839166287" />
+
+# Pictures 
+<img width="6120" height="8160" alt="20260714_195202" src="https://github.com/user-attachments/assets/53327a03-8d7a-4d1b-9825-dcb865828958" />
+
+
+
+

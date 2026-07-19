@@ -1,6 +1,6 @@
 # Krawfox_ROBO :  ESP32 Bluetooth Controlled ROBO CAR
 
-    Krawfox_ROBO is an ESP32-based Bluetooth-controlled differential drive robot. It communicates with any Bluetooth Serial Terminal or Android Bluetooth RC Controller app using the ESP32's built-in Classic Bluetooth module.
+Krawfox_ROBO is an ESP32-based Bluetooth-controlled differential drive robot. It communicates with any Bluetooth Serial Terminal or Android Bluetooth RC Controller app using the ESP32's built-in Classic Bluetooth module.
 
 # The ROBO Supports
 

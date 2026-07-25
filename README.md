@@ -19,7 +19,7 @@ Krawfox_ROBO is an ESP32-based Bluetooth-controlled differential drive robot. It
 
     - ESP32 Devkit V1
     - L298N (or L293D) Motor Driver
-    - TT MOTORS
+    - TT MOTORS ( BO MOTOR )
     - A CHASSIS
     - BATTERY HOLDER
     - BATTERY
@@ -50,10 +50,6 @@ Krawfox_ROBO is an ESP32-based Bluetooth-controlled differential drive robot. It
 # Pictures 
 <img width="6120" height="8160" alt="20260714_195202" src="https://github.com/user-attachments/assets/53327a03-8d7a-4d1b-9825-dcb865828958" />
 
-# Inspiration 
-Ever since childhood I have been fascinated by RC cars. As a kid I built several toy cars but they were either manually operated or powered by simple motors. I never had the chance to build one that could be controlled wirelessly using a remote or a smartphone.
-
-This project is my way of fulfilling that childhood dream. My goal was not just to build an RC car but to design and create something on my own while learning about electronics programming and wireless communication. I plan to continue improving this project by adding new features enhancing its performance and making it more reliable over time.
 
 Its not a perfect project and there are still many things I want to improve but thats what makes it exciting. I hope to keep updating it and learning more as I go.
 

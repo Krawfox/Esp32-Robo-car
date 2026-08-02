@@ -1,6 +1,9 @@
-# Krawfox_ROBO :  ESP32 Bluetooth Controlled ROBO CAR
+# Arkbot: A Esp32 based ROBO that can Be controlled by Bluetooth
 
-Krawfox_ROBO is an ESP32-based Blutooth Controlled ROBO Car that can be controlled by any android phone by just installing a APP (Bluetooth RC control). It supports Forward , backward , left , right movement with a speed control mechanism. Even though th L298n motor driver heats too much you can easily run it for around 2 - 3 minutes non stop indoor and it is a also a thing i wanna improve next. 
+Why did I named it ARKBOT ?
+Since While building it with my friend ( WE both were building our own seperate ) We had a pretty loose connection so on the 1st trial I burnt my robo tbh in the bus later exchanged with my friend ig he has the pic of the burnt robo , So since It was my 1st Hardware project TBH and had fire on the 1st trial so I named my project arkbot ( It also resembles my current username Arksukie as well)
+
+Arkbot is an ESP32-based Blutooth Controlled ROBO Car that can be controlled by any android phone by just installing a APP (Bluetooth RC control). It supports Forward , backward , left , right movement with a speed control mechanism. Even though th L298n motor driver heats too much you can easily run it for around 2 - 3 minutes non stop indoor and it is a also a thing i wanna improve next. 
 
 # The ROBO Supports
 
@@ -36,7 +39,7 @@ Krawfox_ROBO is an ESP32-based Blutooth Controlled ROBO Car that can be controll
 | D27    | IN3                   |
 | D26    | IN4                   |
 
-# Note : ON BLUETOOTH CONNECTION IT SHOWS KRAWFOX_ROBO YOU CAN CHANGE IT VIA THE CODE
+# Note : ON BLUETOOTH CONNECTION IT SHOWS Arkbot YOU CAN CHANGE IT VIA THE CODE 
 
 # LIBRARIES USED
 

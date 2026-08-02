@@ -29,7 +29,7 @@ void right();
 void setup() {
   Serial.begin(115200);
 
-  SerialBT.begin("Krawfox_ROBO");
+  SerialBT.begin("Arkbot");
 
 
 

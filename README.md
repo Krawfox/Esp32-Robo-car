@@ -1,4 +1,4 @@
-# Arkbot: A Esp32 based ROBO that can Be controlled by Bluetooth
+# Arkbot
 
 Why did I named it ARKBOT ?
 Since While building it with my friend ( WE both were building our own seperate ) We had a pretty loose connection so on the 1st trial I burnt my robo tbh in the bus later exchanged with my friend ig he has the pic of the burnt robo , So since It was my 1st Hardware project TBH and had fire on the 1st trial so I named my project arkbot ( It also resembles my current username Arksukie as well)

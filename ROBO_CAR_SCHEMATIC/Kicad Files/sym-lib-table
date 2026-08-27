@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Arkbot_sch-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/Arkbot_sch-easyedapro.kicad_sym") (options "") (descr ""))
+)

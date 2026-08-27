@@ -1,0 +1,4228 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e98c0cde-71f6-4ed8-adba-958d5f7c84a3")
+	(paper "User" 292.1 204.978)
+	(lib_symbols
+		(symbol "Arkbot_sch-easyedapro:3.7V 1850 battery"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arkbot_sch-easyedapro:BAT-TH_SVC14500-3.7V-800MAH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SVC14500 3.7V 800mAh"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Sharvin Power(经钛电子)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C42404724"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.7V 1850 battery_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arkbot_sch-easyedapro:A_A4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arkbot_sch-easyedapro:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "?"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "A_A4_1_0"
+				(rectangle
+					(start 0 0)
+					(end 291.846 -204.724)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 289.306 -202.184)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -52.324) (xy 0 -52.324)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -102.108) (xy 0 -102.108)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -151.892) (xy 0 -151.892)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -201.676) (xy 0 -201.676)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 52.324 -2.54) (xy 52.324 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 52.324 -202.184) (xy 52.324 -204.724)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 102.108 -2.54) (xy 102.108 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 102.108 -202.184) (xy 102.108 -204.724)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 151.892 -2.54) (xy 151.892 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 151.892 -202.184) (xy 151.892 -204.724)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 176.5046 -181.864)
+					(end 289.2806 -202.184)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 176.5554 -191.8208) (xy 289.2044 -191.8208)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 201.676 -2.54) (xy 201.676 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 201.676 -202.184) (xy 201.676 -204.724)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 203.0984 -191.8208) (xy 203.0984 -201.9808)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 203.0984 -196.9008) (xy 289.2044 -196.9008)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 251.46 -2.54) (xy 251.46 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 251.46 -202.184) (xy 251.46 -204.724)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 269.1384 -181.864) (xy 269.1384 -191.8208)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 269.1384 -191.8208) (xy 269.1384 -196.9008)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 289.306 -52.324) (xy 291.846 -52.324)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 289.306 -102.108) (xy 291.846 -102.108)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 289.306 -151.892) (xy 291.846 -151.892)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 289.306 -201.676) (xy 291.846 -201.676)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at 0.381 -27.432 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "B"
+					(at 0.381 -77.216 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "C"
+					(at 0.381 -127 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D"
+					(at 0.381 -176.784 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "1"
+					(at 27.432 -2.159 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "1"
+					(at 27.432 -204.343 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "2"
+					(at 77.216 -2.159 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "2"
+					(at 77.216 -204.343 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "3"
+					(at 127 -2.159 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "3"
+					(at 127 -204.343 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "4"
+					(at 176.784 -2.159 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "4"
+					(at 176.784 -204.343 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "TITLE:"
+					(at 177.7746 -185.166 0)
+					(effects
+						(font
+							(size 1.7272 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Company:"
+					(at 204.3684 -195.3768 0)
+					(effects
+						(font
+							(size 1.7272 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Date:"
+					(at 204.3684 -200.914 0)
+					(effects
+						(font
+							(size 1.7272 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "5"
+					(at 226.568 -2.159 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "5"
+					(at 226.568 -204.343 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Drawn By:"
+					(at 239.6744 -200.9648 0)
+					(effects
+						(font
+							(size 1.7272 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Sheet:"
+					(at 270.1544 -195.834 0)
+					(effects
+						(font
+							(size 1.7272 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "REV:"
+					(at 270.4084 -188.5188 0)
+					(effects
+						(font
+							(size 1.7272 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A"
+					(at 289.687 -27.432 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "B"
+					(at 289.687 -77.216 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "C"
+					(at 289.687 -127 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D"
+					(at 289.687 -176.784 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arkbot_sch-easyedapro:DRIVER_L298N COPY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arkbot_sch-easyedapro:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRIVER_L298N COPY_1_0"
+				(rectangle
+					(start -5.08 15.24)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L298N"
+					(at 2.8194 -0.762 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 17.78 270)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 12.7 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "ENB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -15.24 90)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 17.78 270)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arkbot_sch-easyedapro:ESP32-DEVKIT-V1-30PIN NORMALIZED COPY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arkbot_sch-easyedapro:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32-DEVKIT-V1-30PIN NORMALIZED COPY_1_0"
+				(polyline
+					(pts
+						(xy -14.986 25.4) (xy 15.4686 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -14.986 -25.4) (xy -14.986 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.4686 25.4) (xy 15.4686 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.4686 -25.4) (xy -14.986 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ESP32"
+					(at 4.699 24.4348 1800)
+					(effects
+						(font
+							(size 1.9558 1.9558)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -15.24 180)
+					(length 4.9784)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3V3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -7.62 180)
+					(length 4.9784)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -5.08 180)
+					(length 4.9784)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 2.54 180)
+					(length 4.9784)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -7.62 0)
+					(length 4.9784)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D12"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -10.16 0)
+					(length 4.9784)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D13"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -5.08 0)
+					(length 4.9784)
+					(name "D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D14"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -10.16 180)
+					(length 4.9784)
+					(name "D15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D15"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 5.08 180)
+					(length 4.9784)
+					(name "D18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D18"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 7.62 180)
+					(length 4.9784)
+					(name "D19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D19"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 10.16 180)
+					(length 4.9784)
+					(name "D21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D21"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 17.78 180)
+					(length 4.9784)
+					(name "D22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D22"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 20.32 180)
+					(length 4.9784)
+					(name "D23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D23"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 2.54 0)
+					(length 4.9784)
+					(name "D25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D25"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 0 0)
+					(length 4.9784)
+					(name "D26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D26"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -2.54 0)
+					(length 4.9784)
+					(name "D27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D27"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 7.62 0)
+					(length 4.9784)
+					(name "D32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D32"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 5.08 0)
+					(length 4.9784)
+					(name "D33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D33"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 12.7 0)
+					(length 4.9784)
+					(name "D34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D34"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 10.16 0)
+					(length 4.9784)
+					(name "D35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D35"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 20.32 0)
+					(length 4.9784)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "EN"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -12.7 180)
+					(length 4.9784)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -12.7 0)
+					(length 4.9784)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 12.7 180)
+					(length 4.9784)
+					(name "RX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RX0"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 4.9784)
+					(name "RX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RX2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 15.24 180)
+					(length 4.9784)
+					(name "TX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TX0"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 4.9784)
+					(name "TX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TX2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -15.24 0)
+					(length 4.9784)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VIN"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 15.24 0)
+					(length 4.9784)
+					(name "VN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VN"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 17.78 0)
+					(length 4.9784)
+					(name "VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "VP"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arkbot_sch-easyedapro:Switch SPST"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW_"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arkbot_sch-easyedapro:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Switch SPST_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0.508) (xy 2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.112 0.508 0)
+					(length 4.318)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.128 0.508 180)
+					(length 4.318)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arkbot_sch-easyedapro:TT MOTOR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arkbot_sch-easyedapro:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TT MOTOR_1_0"
+				(rectangle
+					(start -6.35 2.54)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 5.08)
+					(end 12.7 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -1.27) (xy 16.51 -1.27) (xy 16.51 1.27) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "M+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "M-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 200.66 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29bc2bce-35f3-4329-9c50-d9e472873f7e")
+	)
+	(junction
+		(at 154.94 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6b0bb3-c90f-4a14-a102-2a8a458cc1b2")
+	)
+	(junction
+		(at 176.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc83339-3873-4aef-af2d-8d1f85653ee8")
+	)
+	(junction
+		(at 173.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d546170-fcbf-4a67-8fc7-002d3cf4ccb8")
+	)
+	(junction
+		(at 208.28 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65bf6a8d-db40-45a1-8b98-05bea7d4d55e")
+	)
+	(no_connect
+		(at 99.06 102.87)
+		(uuid "011a67a2-183f-4987-bdd8-ba11d4916e52")
+	)
+	(no_connect
+		(at 58.42 102.87)
+		(uuid "1e32a664-0fd6-4545-acc8-42cceb657604")
+	)
+	(no_connect
+		(at 99.06 97.79)
+		(uuid "531312f3-1b7c-4bb1-8d78-9cb4574a3e31")
+	)
+	(no_connect
+		(at 58.42 74.93)
+		(uuid "5e0cc212-71cc-4843-af33-91da1bac51d4")
+	)
+	(no_connect
+		(at 99.06 107.95)
+		(uuid "6e420296-d6b8-4ebf-80db-e0727b2fabc8")
+	)
+	(no_connect
+		(at 99.06 105.41)
+		(uuid "88568284-ab30-4f36-8852-99c0db790ee1")
+	)
+	(no_connect
+		(at 58.42 85.09)
+		(uuid "8d2d9980-fc60-403e-8963-63b7b5a074b7")
+	)
+	(no_connect
+		(at 58.42 100.33)
+		(uuid "8f1f982b-9568-498c-9e44-6db401ae00c2")
+	)
+	(no_connect
+		(at 99.06 110.49)
+		(uuid "a3ec1f0f-fd8f-48d3-821d-21f4e66f84fb")
+	)
+	(no_connect
+		(at 58.42 90.17)
+		(uuid "ade0e5c9-2210-4941-b7cd-1141cf66899f")
+	)
+	(no_connect
+		(at 58.42 110.49)
+		(uuid "bb9c50b0-904f-4e93-88fa-0f454cf1c56b")
+	)
+	(no_connect
+		(at 99.06 95.25)
+		(uuid "bc9821e1-ec00-40ab-a34f-3f976609dda5")
+	)
+	(no_connect
+		(at 58.42 95.25)
+		(uuid "c174f047-7090-4c1c-8b63-5972f3041208")
+	)
+	(no_connect
+		(at 58.42 82.55)
+		(uuid "d05734ef-0f72-49b7-9d5b-8262e9f3c127")
+	)
+	(no_connect
+		(at 58.42 92.71)
+		(uuid "d45b4971-cecf-4822-995d-dd84f5c49153")
+	)
+	(no_connect
+		(at 58.42 87.63)
+		(uuid "d50e7df9-7a7d-4239-a320-0a1f8daddc1b")
+	)
+	(no_connect
+		(at 99.06 92.71)
+		(uuid "d81fb10b-0270-4295-b164-50abcdfd4c68")
+	)
+	(no_connect
+		(at 58.42 107.95)
+		(uuid "ddf312c9-1249-41a2-b953-02c5f5cfbf36")
+	)
+	(no_connect
+		(at 58.42 97.79)
+		(uuid "df2ca1eb-f97c-4a74-b427-d80044de6a81")
+	)
+	(no_connect
+		(at 99.06 100.33)
+		(uuid "ed2489d4-ee2c-4dec-8768-d38efdb7055e")
+	)
+	(no_connect
+		(at 58.42 77.47)
+		(uuid "ee7888f2-4430-4dce-a36e-0f07ba5899a9")
+	)
+	(no_connect
+		(at 58.42 105.41)
+		(uuid "fb4a9773-c40c-4113-b471-e255b2a82173")
+	)
+	(wire
+		(pts
+			(xy 227.33 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad1a78a-ddf7-4e8b-ade1-2e7eee071038")
+	)
+	(wire
+		(pts
+			(xy 144.78 27.94) (xy 133.35 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b43eeae-8a0f-433e-a1df-663582247f94")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d54fc01-45ac-4ead-82db-14f6031599c4")
+	)
+	(wire
+		(pts
+			(xy 123.19 27.94) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2fb16e-151e-4fa4-bc60-fb6fbb3cb411")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cee3d9b-04f1-4967-a7f2-a1ba6f020c6e")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 53.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218b2bd3-bd0b-45f4-8bbf-e025d242858b")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2356ab7f-e01f-4692-a906-a4db2ce49929")
+	)
+	(wire
+		(pts
+			(xy 161.29 46.99) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f387369-a6e2-404a-9ac5-fd6446e0ea30")
+	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 173.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38267e47-2174-4dc9-9810-92f354c6e0b3")
+	)
+	(wire
+		(pts
+			(xy 161.29 124.46) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f18d60d-097e-4a96-8182-7672ef1115f1")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 161.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463b4d98-41f7-4d8b-a712-aba54b85e4f2")
+	)
+	(wire
+		(pts
+			(xy 99.06 46.99) (xy 111.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca63ca5-e212-46e7-ba2f-dbf5accaae03")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 161.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f20367e-78e5-45f1-8649-39749e545b40")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f535e8d-a514-4a06-ad9c-91212233071f")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588a61cb-ce4b-4bae-8a28-067e472abf6e")
+	)
+	(wire
+		(pts
+			(xy 53.34 124.46) (xy 161.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f90e1a-98a0-47dc-b41e-6d55b0dc2a24")
+	)
+	(wire
+		(pts
+			(xy 227.33 87.63) (xy 208.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752dbc90-12e0-48c3-b9e3-82100b443160")
+	)
+	(wire
+		(pts
+			(xy 227.33 68.58) (xy 219.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757d4707-a68d-4a6e-8341-61214730e8b3")
+	)
+	(wire
+		(pts
+			(xy 208.28 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796d4161-71d6-414e-9af2-b31d16a4e161")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c39eb73-58c7-45ba-bc9f-aca73cdd052c")
+	)
+	(wire
+		(pts
+			(xy 99.06 77.47) (xy 154.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6f8185-277f-4121-8497-60bc2bb4fa74")
+	)
+	(wire
+		(pts
+			(xy 227.33 41.91) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817b9281-18d9-4c4d-b779-3a128e1c65cd")
+	)
+	(wire
+		(pts
+			(xy 219.71 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845f7903-0419-454b-9ebb-4bca8891d11e")
+	)
+	(wire
+		(pts
+			(xy 200.66 107.95) (xy 173.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86583065-9416-44b3-9f09-375277ea6c7c")
+	)
+	(wire
+		(pts
+			(xy 99.06 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6ccc29-071a-4864-b801-6c9f7d197be6")
+	)
+	(wire
+		(pts
+			(xy 227.33 49.53) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f35696a-b9c7-4bc7-9fa1-2f6d0cfe8cd1")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917686aa-9571-4ac8-a0c2-b90867aa67db")
+	)
+	(wire
+		(pts
+			(xy 227.33 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98696849-eca0-4ba9-9671-4a50ea09dd20")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c14ddfc-8a54-45a3-be15-13f130db679b")
+	)
+	(wire
+		(pts
+			(xy 227.33 99.06) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3d4cc2-0529-49ee-bec2-e07745a0aa38")
+	)
+	(wire
+		(pts
+			(xy 127 46.99) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80f3fa3-047b-4da0-907b-c375fc7b3e0c")
+	)
+	(wire
+		(pts
+			(xy 219.71 68.58) (xy 219.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bdf6ba-b006-44d6-83af-ebefb5b6c844")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9658ed6-cfcd-4231-8bb9-f091177c8bc5")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55d1e15-6244-4bf0-8b21-e4110c465229")
+	)
+	(wire
+		(pts
+			(xy 99.06 27.94) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe5ecfd-7846-47ff-80c5-a5e4624da8a8")
+	)
+	(wire
+		(pts
+			(xy 227.33 60.96) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16f0a3c-212e-4e24-b7c2-816f1507bb48")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 176.53 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25db17b-b1da-4787-925b-3b48fdf58b93")
+	)
+	(wire
+		(pts
+			(xy 208.28 106.68) (xy 208.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d748d569-e27e-4d73-aab9-9c7da185f480")
+	)
+	(wire
+		(pts
+			(xy 176.53 41.91) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f498d9-8f5a-420b-8bbb-69e80c7d2db9")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92f743f-adf7-4f06-b60d-85e157aa352f")
+	)
+	(wire
+		(pts
+			(xy 53.34 80.01) (xy 53.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1fb7e3-9560-4313-9a8d-6e127a2274fc")
+	)
+	(wire
+		(pts
+			(xy 173.99 49.53) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66a7a0e-222b-4c78-9464-d00f965c659d")
+	)
+	(wire
+		(pts
+			(xy 154.94 27.94) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98fd178-570c-421b-982a-0bf4695100cf")
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:ESP32-DEVKIT-V1-30PIN NORMALIZED COPY")
+		(at 78.74 90.17 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1344c60a-4cde-436b-9eec-e8f56bd6dfdc")
+		(property "Reference" "1"
+			(at 78.0796 61.6966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "ESP32-DEVKIT-V1-30PIN NORMALIZED COPY"
+			(at 78.0796 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify right top)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify right top)
+			)
+		)
+		(property "Origin Footprint" "ESP32-DEVKITV1_ESP32-DEVKITV1"
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify right top)
+			)
+		)
+		(pin "D14"
+			(uuid "88b079fd-0b34-47a2-951e-08bf5c5eda53")
+		)
+		(pin "D5"
+			(uuid "91904c47-2c1e-46f8-b9d9-85be9e1742ec")
+		)
+		(pin "D35"
+			(uuid "3e4db775-d3a9-4dca-86db-aba5fe3ce148")
+		)
+		(pin "D26"
+			(uuid "c5a76252-d6a1-4937-b319-942ae3e92379")
+		)
+		(pin "D2"
+			(uuid "0793dd2d-5ee0-4b5c-9fb5-6e60bb34ae31")
+		)
+		(pin "D21"
+			(uuid "58cc1dff-317e-4e8b-adb7-8f37bbc6f03a")
+		)
+		(pin "D15"
+			(uuid "f1907e08-128f-4f4f-8108-db1fc341e586")
+		)
+		(pin "3V3"
+			(uuid "6677ce7e-ee95-4726-9069-8a019e3a20ad")
+		)
+		(pin "D12"
+			(uuid "1d8113da-d7e3-44fb-8d17-bbe135529f8d")
+		)
+		(pin "D18"
+			(uuid "4cbd5569-5a42-4b82-89c4-e7b99455a289")
+		)
+		(pin "D19"
+			(uuid "b9d1d401-0931-4497-8610-7068b7fcbb06")
+		)
+		(pin "D4"
+			(uuid "27ddc8cf-f5d5-4d34-85cb-69480f8d0811")
+		)
+		(pin "D13"
+			(uuid "ff00ebec-e8e5-473d-929d-7e48708281ca")
+		)
+		(pin "D22"
+			(uuid "f8fb2c42-16a6-4be8-93f4-88308f0deb39")
+		)
+		(pin "D23"
+			(uuid "bdfaacd2-5bab-452b-9223-60329bed2c7f")
+		)
+		(pin "D25"
+			(uuid "ed61fca5-7e4a-44d1-9697-227266e5e42b")
+		)
+		(pin "D27"
+			(uuid "971f6d54-dac4-47f9-b51c-fd8825176399")
+		)
+		(pin "D32"
+			(uuid "f878c967-e413-49e2-ad60-e12dbc959fad")
+		)
+		(pin "D33"
+			(uuid "6d549ea6-e1a0-4646-bd59-f203fe25c056")
+		)
+		(pin "D34"
+			(uuid "672dbef6-36e4-4cd4-9b07-616cf7bd65c7")
+		)
+		(pin "EN"
+			(uuid "9aa7d02d-43a8-4df6-bcbd-c7c2008c18d2")
+		)
+		(pin "GND"
+			(uuid "f9da7a52-b533-4162-9c3e-e4c6717ea23f")
+		)
+		(pin "GND2"
+			(uuid "ec426502-b001-4707-b2b3-1f82b9eae2bf")
+		)
+		(pin "RX0"
+			(uuid "02502036-6e0d-43d2-9c44-f5c1baa5055f")
+		)
+		(pin "RX2"
+			(uuid "480a4fc0-ba57-4c62-97c8-7e8799705441")
+		)
+		(pin "TX0"
+			(uuid "3b2a5ac7-aadb-45fe-9136-76bbe51f9b31")
+		)
+		(pin "TX2"
+			(uuid "481bbd45-a804-42d4-9b03-72739bcdfd5d")
+		)
+		(pin "VIN"
+			(uuid "dfd1936d-dddd-4931-a1e1-04a6ee590086")
+		)
+		(pin "VN"
+			(uuid "34c23b8d-d605-451d-8e0d-c14318a802dd")
+		)
+		(pin "VP"
+			(uuid "4e3d7a40-487b-430d-b9a4-9d121302ed03")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:TT MOTOR")
+		(at 233.68 102.87 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2062c79f-00f8-4024-81db-94db7e0d2fc5")
+		(property "Reference" "U8"
+			(at 236.982 91.821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TT MOTOR"
+			(at 236.982 94.107 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "GENERIC-ELETRIC-MOTOR"
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fdc23437-4d46-4d9f-9aa1-b9b6fd851c6f")
+		)
+		(pin "2"
+			(uuid "8c247d12-60b5-441a-99bf-4218f940ab9d")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:3.7V 1850 battery")
+		(at 104.14 27.94 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5baf5162-77ff-4b1c-a835-644fcf11ee16")
+		(property "Reference" "U2"
+			(at 102.616 21.0566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.7V 1850 battery"
+			(at 102.616 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:BAT-TH_SVC14500-3.7V-800MAH"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SVC14500 3.7V 800mAh"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Sharvin Power(经钛电子)"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Part" "C42404724"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "BAT-TH_SVC14500-3.7V-800MAH"
+			(at 104.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8c22528f-102c-4ab3-998d-af83c2e7c2b5")
+		)
+		(pin "2"
+			(uuid "5b4fff2d-6c80-49a3-8aa7-2831372ae534")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:TT MOTOR")
+		(at 233.68 64.77 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a274eeb-0ed0-42aa-992c-5ed699f0c63e")
+		(property "Reference" "U6"
+			(at 236.982 53.721 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TT MOTOR"
+			(at 236.982 56.007 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 233.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 233.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 233.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "GENERIC-ELETRIC-MOTOR"
+			(at 233.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "66046967-7a47-4b42-a8f2-0c0752e20565")
+		)
+		(pin "2"
+			(uuid "c70b4daa-cc88-422d-b5f8-9e5ef5111114")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:A_A4")
+		(at 0 -0.254 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7aac1c75-909d-4e06-b312-c6b1ff2c0bd6")
+		(property "Reference" "A"
+			(at 145.161 -3.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "A_A4"
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "?"
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "@Project Name" "ROBO Car Schematic"
+			(at 192.4304 188.1124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.1844 2.1844)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Company" "Krawfox"
+			(at 221.2848 195.1736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.9558 1.9558)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Date" "2026-07-04"
+			(at 216.3064 200.787 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.9558 1.9558)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "NONE"
+			(at 0 -0.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "REV" "1.0"
+			(at 280.0604 188.2902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.9558 1.9558)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheet" "1/1"
+			(at 281.5844 195.707 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.9558 1.9558)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "A")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:DRIVER_L298N COPY")
+		(at 168.91 82.55 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83df857a-3eab-4eaa-8431-eb188ef0882e")
+		(property "Reference" "U1"
+			(at 179.578 82.1182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DRIVER_L298N COPY"
+			(at 179.578 84.4042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "M_L298N_AL"
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "11"
+			(uuid "ce4331c0-6ceb-4af9-b0c2-e77ab5ca12d1")
+		)
+		(pin "10"
+			(uuid "0a559a3e-4ff3-42de-9135-31774525ee30")
+		)
+		(pin "12"
+			(uuid "f6eee3ba-41d4-461a-b15f-2e075c2a8a1c")
+		)
+		(pin "4"
+			(uuid "a86299e4-d414-4c50-8d57-06a1ad1356a3")
+		)
+		(pin "8"
+			(uuid "6a51e3f4-de61-4e2e-bea8-9e33f7cecd55")
+		)
+		(pin "6"
+			(uuid "ca8d9e58-2af9-4f91-b99d-d34f0bbef956")
+		)
+		(pin "1"
+			(uuid "1f8fdc47-9f81-4464-8d20-420eb94eb6a0")
+		)
+		(pin "7"
+			(uuid "7d9acb86-f035-426d-874d-c468b14af004")
+		)
+		(pin "13"
+			(uuid "2274c89b-2d5c-4b4f-afc6-e4e19cbf7a4a")
+		)
+		(pin "3"
+			(uuid "464a23eb-3f9d-473a-a543-e24e3fb49c5c")
+		)
+		(pin "9"
+			(uuid "96ebcfac-947e-44da-8bc9-23e5cfdd4b5f")
+		)
+		(pin "5"
+			(uuid "34285f62-0246-4f32-aa3b-8c7b6ba9bc51")
+		)
+		(pin "14"
+			(uuid "a13439f6-5087-4c4f-8122-1b2fb8c8f9a9")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:TT MOTOR")
+		(at 233.68 83.82 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb09fb4a-109a-4c15-8e6b-8bd62c1d71c1")
+		(property "Reference" "U7"
+			(at 236.982 72.771 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TT MOTOR"
+			(at 236.982 75.057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "GENERIC-ELETRIC-MOTOR"
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "640e397b-cea4-41e0-9d1d-7c4acb0b8ed8")
+		)
+		(pin "2"
+			(uuid "cb017272-c117-4190-8f7a-7dade61d8770")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:3.7V 1850 battery")
+		(at 128.27 27.94 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c16e0daa-3e09-41b2-89ee-f3fb01c676da")
+		(property "Reference" "U3"
+			(at 126.746 21.0566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.7V 1850 battery"
+			(at 126.746 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:BAT-TH_SVC14500-3.7V-800MAH"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SVC14500 3.7V 800mAh"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Sharvin Power(经钛电子)"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Part" "C42404724"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "BAT-TH_SVC14500-3.7V-800MAH"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "535a39af-f3b8-4f7c-962a-f8d6ff6ef4c4")
+		)
+		(pin "2"
+			(uuid "ff79037d-1805-4a50-8c93-db77f14778a6")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:3.7V 1850 battery")
+		(at 149.86 27.94 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e95b67a0-dbb1-4975-8aec-54f298b921a3")
+		(property "Reference" "U4"
+			(at 148.336 21.0566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.7V 1850 battery"
+			(at 148.336 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:BAT-TH_SVC14500-3.7V-800MAH"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SVC14500 3.7V 800mAh"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Sharvin Power(经钛电子)"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Part" "C42404724"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "BAT-TH_SVC14500-3.7V-800MAH"
+			(at 149.86 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b9ead39a-41b8-4cff-b82a-7fec1847301b")
+		)
+		(pin "2"
+			(uuid "d72cef4f-9b4b-4bb3-989f-7ca5a748cccf")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:Switch SPST")
+		(at 119.888 46.482 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f158a75d-476e-424e-ae79-0b954723cd8c")
+		(property "Reference" "SW_1"
+			(at 116.1288 42.9006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "Switch SPST"
+			(at 116.1288 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 119.888 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.888 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.888 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 119.888 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify right top)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 119.888 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify right top)
+			)
+		)
+		(property "Origin Footprint" "SWITCH-SPST"
+			(at 119.888 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "816d047b-6689-4a6a-9a32-fdcaea6ae0b7")
+		)
+		(pin "2"
+			(uuid "542b3eef-85d6-4491-9f6e-54f461fb90a3")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "SW_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arkbot_sch-easyedapro:TT MOTOR")
+		(at 233.68 45.72 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4531552-d3f7-4a36-a1fb-7a69d9df2a76")
+		(property "Reference" "U5"
+			(at 236.982 34.671 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TT MOTOR"
+			(at 236.982 36.957 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Arkbot_sch-easyedapro:"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Add into BOM" "yes"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "yes"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Origin Footprint" "GENERIC-ELETRIC-MOTOR"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0414 1.0414)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8fc6508e-8b39-494d-b1a2-8844c6476ddc")
+		)
+		(pin "2"
+			(uuid "f1da2fc7-7e03-4d5e-91cb-5c4c4d06079b")
+		)
+		(instances
+			(project "Arkbot_schematic"
+				(path "/e98c0cde-71f6-4ed8-adba-958d5f7c84a3"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

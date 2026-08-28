@@ -18,6 +18,20 @@ Arkbot is an ESP32-based Blutooth Controlled ROBO Car that can be controlled by 
     - L298N/L293D compatible motor driver
     - PWM motor speed control
 
+#  Bill of Materials
+
+| Item | Qty | Unit Price (NPR) | Total (NPR) | Unit Price (USD) | Total (USD) | Purchased From |
+|---|---|---|---|---|---|---|
+| ESP32 Devkit V1 | 1 | 1300 | 1300 | $8.52 | $8.52 | Shanti Suppliers (Local Store) |
+| L298N Motor Driver | 1 | 800 | 800 | $5.25 | $5.25 | Shanti Suppliers (Local Store) |
+| TT Motor (BO Motor) | 4 | 200 | 800 | $1.31 | $5.25 | Shanti Suppliers (Local Store) |
+| Battery Holder | 1 | 100 | 100 | $0.66 | $0.66 | Shanti Suppliers (Local Store) |
+| Battery + Jumper Wires + Misc. Wires | 1 | 800 | 800 | $5.25 | $5.25 | Shanti Suppliers (Local Store) |
+| Wooden Chasis | 1 | - | - | - | - | Self Made |
+| **Grand Total** | **9** | - | **3800** | - | **$24.92** | - |
+
+> Exchange rate used: 1 USD = 152.5 NPR (approx., Aug 2026)
+
 # Hardware Required
 
     - ESP32 Devkit V1
